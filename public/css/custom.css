@@ -1,49 +1,4 @@
 /*-- Use For Custom Styling --*/
-.hero {
-    position: relative;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.hero::before {
-    content: "";
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.50;
-}
-.hero1::before {
-    background-image: url(/public/images/1_3.jpeg);
-}
-.hero2::before {
-    background-image: url(/public/images/2_1.jpeg);
-}
-.hero3::before {
-    background-image: url(/public/images/3_1.jpeg);
-}
-.hero4::before {
-    background-image: url(/public/images/4_2.jpeg);
-}
-.hero5::before {
-    background-image: url(/public/images/5_1.jpeg);
-}
-.hero6::before {
-    background-image: url(/public/images/6_1.jpeg);
-}
-.hero7::before {
-    background-image: url(/public/images/7_0.png);
-}
-.hero8::before {
-    background-image: url(/public/images/8_1.jpeg);
-}
-
-
 @media (max-width: 370px) {
     .iframe-responsive{
         width: 100%;
